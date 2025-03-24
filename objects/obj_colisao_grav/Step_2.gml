@@ -1,7 +1,7 @@
 var _colx, _coly;
 
-_colx = instance_place(x+velh,y, obj_bloco);
-_coly = instance_place(x,y+velv, obj_bloco);
+_colx = instance_place(x+velh,y, obj_mapa);
+_coly = instance_place(x,y+velv, obj_mapa);
 
 if (_colx)
 {
