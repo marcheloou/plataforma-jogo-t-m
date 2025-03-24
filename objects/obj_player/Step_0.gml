@@ -40,6 +40,7 @@ if(keyboard_check(ord("S"))){
     if(_jump)
     {
 		
+		
 		velv = 0
 	    velv = forca_pulo;
     }
