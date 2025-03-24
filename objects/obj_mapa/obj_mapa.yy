@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_colisao",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mapa",
+  "eventList":[],
   "managed":true,
-  "name":"obj_colisao",
+  "name":"obj_mapa",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -24,13 +21,21 @@
   "physicsRestitution":0.1,
   "physicsSensor":false,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":16.0,"y":0.0,},
+    {"x":16.0,"y":16.0,},
+    {"x":0.0,"y":16.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Mapa",
+    "path":"sprites/Mapa/Mapa.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
